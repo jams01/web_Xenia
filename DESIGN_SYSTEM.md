@@ -41,7 +41,7 @@ No distorsionar proporciones ni recolorear arbitrariamente.
 |-------|-------------|--------|
 | XenIA | `/demo/scientific` (refinada) | `www` / raíz |
 | Teraval | `/teraval` | `teraval.xenia…` o dominio propio |
-| XeniaMap | externo | https://xeniamap.ngrok.app/ |
+| XeniaMap | externo | https://map.xeniagroup.co/ |
 
 **Teraval no vive dentro del landing XenIA.** Solo aparece como enlace de ecosistema.
 
@@ -64,7 +64,7 @@ Fuente editable: `src/content/site.ts`
 
 - Teraval adaptado desde [bioagro.com.co](https://bioagro.com.co/) (BioAgro → Teraval).
 - `TODO[CANVA]`: incorporar textos del deck Canva cuando estén disponibles.
-- XeniaMap CTA → https://xeniamap.ngrok.app/
+- XeniaMap CTA → https://map.xeniagroup.co/
 
 ## Motion
 

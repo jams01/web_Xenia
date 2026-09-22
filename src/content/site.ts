@@ -18,7 +18,7 @@ export const brand = {
   subtitle:
     'DeepTech, inteligencia artificial y observación de la Tierra para transformar datos científicos en soluciones reales para la industria.',
   narrative: 'Ciencia → Datos → Inteligencia → Tecnología → Soluciones reales',
-  xeniamapUrl: 'https://xeniamap.ngrok.app/',
+  xeniamapUrl: 'https://map.xeniagroup.co/',
   aboutLead: aboutFromSources.lead,
   aboutBody: aboutFromSources.body,
   aboutEcosystem: aboutFromSources.ecosystem,
@@ -131,7 +131,7 @@ export const xeniamap = {
   description:
     'Plataforma del ecosistema XenIA para llevar inteligencia geoespacial al mapa: capas, análisis y lectura territorial para industria y gobierno. Incluye flujos de análisis agrícola — dashboard multisensor espectral–espacio–temporal —, detección de incendios y detección de metano.',
   cta: 'Explorar XeniaMap',
-  url: 'https://xeniamap.ngrok.app/',
+  url: 'https://map.xeniagroup.co/',
 } as const
 
 /** Teraval — contenido BioAgro (bioagro.com.co) + Canva, bajo marca Teraval. */
@@ -166,7 +166,7 @@ export const navItems = [
 export const ecosystemLinks = [
   { id: 'xenia', label: 'XenIA', to: '/', external: false },
   { id: 'teraval', label: 'Teraval', to: '/teraval', external: false },
-  { id: 'xeniamap', label: 'XeniaMap', to: 'https://xeniamap.ngrok.app/', external: true },
+  { id: 'xeniamap', label: 'XeniaMap', to: 'https://map.xeniagroup.co/', external: true },
 ] as const
 
 export const teravalSite = {

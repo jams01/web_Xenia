@@ -333,7 +333,7 @@ export function TeravalLanding() {
             <Link to="/" className="hover:text-white">
               XenIA
             </Link>
-            <a href="https://xeniamap.ngrok.app/" target="_blank" rel="noreferrer" className="hover:text-white">
+            <a href="https://map.xeniagroup.co/" target="_blank" rel="noreferrer" className="hover:text-white">
               XeniaMap
             </a>
             <a href={teraval.sourceUrl} target="_blank" rel="noreferrer" className="hover:text-white">

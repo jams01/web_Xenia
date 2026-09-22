@@ -149,7 +149,7 @@ export function Footer() {
           <Link to="/">
             <img src={logos.xenia} alt="XenIA" className="h-8 w-auto opacity-90" />
           </Link>
-          <a href="https://xeniamap.ngrok.app/" target="_blank" rel="noreferrer">
+          <a href="https://map.xeniagroup.co/" target="_blank" rel="noreferrer">
             <img src={logos.xeniamap} alt="XeniaMap" className="h-8 w-auto opacity-90" />
           </a>
           <Link to="/teraval">
