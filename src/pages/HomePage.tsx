@@ -6,7 +6,7 @@ import { PlatformTabs } from '../components/PlatformTabs'
 import { SiteFooter } from '../components/SiteFooter'
 import { SiteHeader } from '../components/SiteHeader'
 import { useDocumentTitle } from '../hooks/useDocumentTitle'
-import { UBICACION, WHATSAPP_LABEL, WHATSAPP_URL } from '../content/site'
+import { MAP_URL, UBICACION, WHATSAPP_LABEL, WHATSAPP_URL } from '../content/site'
 
 // Celdas del raster de la portada: "clase:retardo" ('' = celda apagada)
 const RASTER = [
@@ -181,9 +181,14 @@ export function HomePage() {
           </>
         }
         accion={
-          <a className="boton primario chico" href={WHATSAPP_URL} target="_blank" rel="noopener">
-            Agenda tu demo
-          </a>
+          <>
+            <a className="boton secundario chico" href={MAP_URL} target="_blank" rel="noopener">
+              Ir a Xenia Map
+            </a>
+            <a className="boton primario chico" href={WHATSAPP_URL} target="_blank" rel="noopener">
+              Agenda tu demo
+            </a>
+          </>
         }
       />
 

@@ -162,6 +162,9 @@ ul, ol { margin: 0; padding: 0; }
 .nav a.nav-teraval { color: var(--ambar); }
 .sitio-cabecera.clara .nav a.nav-xenia { color: var(--senal-texto); }
 .acciones-cabecera { display: flex; align-items: center; gap: 8px; }
+.sitio-cabecera .boton.secundario { color: #e9f1ef; border-color: #5e7774; }
+.sitio-cabecera .boton.secundario:hover { color: #ffffff; border-color: #e9f1ef; }
+.sitio-cabecera.clara .boton.secundario { color: var(--tinta); border-color: var(--linea-fuerte); }
 .menu-boton {
   display: none; width: 44px; height: 44px; border-radius: 999px; border: 1.5px solid #5e7774;
   background: transparent; color: #e9f1ef; align-items: center; justify-content: center; cursor: pointer;
